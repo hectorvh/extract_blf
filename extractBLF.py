@@ -15,7 +15,7 @@ args = parser.parse_args()
 
 def write_value(file, value):
     file.write(str(value))
-    file.write(" : ")
+    file.write(" , ")
   
 if args.csv:
     out_file = args.outfile + ".csv"
