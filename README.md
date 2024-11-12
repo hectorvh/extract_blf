@@ -11,4 +11,5 @@ extract_blf script can convert .blf log file to .txt or .csv, .dbc file can be i
 2. HOW TO USE EXTRACT BLF
 - python extractBLF -h
 - python extractBLF -blf BLF_FILE.blf
-- python extractBLF -blf BLF_FILE.blf -outfile FILE_TO_SAVE_EXTRACT.txt
+- python extractBLF.py -blf BLF_FILE.blf -outfile OUTPUT_FILE
+- python extractBLF.py -blf BLF_FILE.blf -csv OUTPUT_FILE
